@@ -164,11 +164,31 @@ td.user a p {
     font-weight: bold;
 }
 
-table button {
+.remove {
     background-color: transparent;
     border: none;
     cursor: pointer;
     color: var(--bg-btn);
+}
+
+.none {
+    color: hsla(189, 4%, 32%, 1);
+    width: 155%;
+    height: 474px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-second);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 25px;
+    gap: 5rem;
+}
+
+.none svg {
+    width: 132px;
+    height: 125px;
+    margin-right: 60px;
 }
 
 
